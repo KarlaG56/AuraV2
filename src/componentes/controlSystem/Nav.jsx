@@ -7,11 +7,11 @@ function Nav() {
                 <a></a>
             </Link>
 
-            <Link to="/" className='Block'>
+            <Link to="/Control_sistema/Empleado" className='Block'>
                 <a>| Registrar empleado |</a>
             </Link>
 
-            <Link to="/" className='Block'>
+            <Link to="/Control_sistema/Menu" className='Block'>
                 <a>| Carga de menu |</a>
             </Link>
 

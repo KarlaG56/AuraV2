@@ -1,16 +1,16 @@
 import Header from "../controlSystem/Header";
 import Nav from "../controlSystem/Nav";
-import Body_Employee from "../controlSystem/Body_Employee";
+import Body_Menu from "../controlSystem/Body_Menu";
 import "../../assets/styles/Control_System.css";
 
-function controlSystem() {
+function control_menu() {
     return (
         <>
             <Header />
             <Nav />
-            <Body_Employee/>
+            <Body_Menu/>
         </>
     )
 }
 
-export default controlSystem;
+export default control_menu;
