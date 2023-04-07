@@ -24,3 +24,79 @@
     text-decoration: none;
     color: aliceblue;
 }
+
+/*Employee*/
+
+.div-container-Employee{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75.7vh;
+    overflow: hidden;
+    background-image: url('/img/top-left-bg.jpg');
+}
+
+.div-container-form-Employee{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 35%;
+    height: 65%;
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.form-Employee{
+    padding: 0 40px;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+.div-form-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.title-employee{
+    width: 100%;
+    padding: 10% 0% 10%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-employee{
+    width: 120%;
+    outline: none;
+    margin-bottom: 5%;
+}
+
+.button-contaner-employee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+}
+
+.button-employee{
+    border-radius: 25px;
+    background: #fe8c00;
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
+    background: linear-gradient(to right, #f83600, #fe8c00);
+    color: white;
+    padding: 10% 15% 10%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 17%;
+}
+
