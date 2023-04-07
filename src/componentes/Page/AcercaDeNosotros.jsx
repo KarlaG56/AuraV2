@@ -1,7 +1,7 @@
 import Header from "../Header";
 import Footer from "../Footer";
-import Body from "../Inicio/Body";
-import '../../assets/styles/Inicio.css';
+import Body from "../AcercaDeNosotros/Body";
+import '../../assets/styles/AcercaDeNosotros.css';
 
 function Inicio() {
     return (
