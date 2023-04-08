@@ -108,6 +108,7 @@
     color: rgb(240, 240, 240);
 }
 
+/* Carga de Menu */
 
 /* Status*/
 
@@ -127,7 +128,6 @@
 
 .div-form-status {
     padding: 0 40px;
-    margin-right: 10%;
     width: 100%;
     box-sizing: border-box;
 }
@@ -150,7 +150,7 @@
     outline: none;
 }
 
-.buttons-status{
+.buttons-status {
     display: flex;
     justify-content: space-between;
 }
@@ -162,7 +162,7 @@
     background: linear-gradient(to right, #0072ff, #00c6ff);
     color: white;
     margin-right: 5%;
-    padding: 5% 10% 5% ;
+    padding: 5% 10% 5%;
     width: 50%;
     cursor: pointer;
     border: none;
@@ -183,13 +183,13 @@
     font-size: 100%;
 }
 
-.button-status-active:focus{
-    background:#00c6ff;
+.button-status-active:focus {
+    background: #00c6ff;
     color: rgb(240, 240, 240);
 }
 
-.button-status-inactive:focus{
-    background:#fc4545;
+.button-status-inactive:focus {
+    background: #fc4545;
     color: rgb(240, 240, 240);
 }
 
@@ -222,7 +222,6 @@
 
 .form-menu {
     padding: 0 40px;
-    margin-right: 10%;
     box-sizing: border-box;
 }
 
@@ -240,7 +239,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom:5%;
+    margin-bottom: 5%;
 }
 
 .input-Menu {
@@ -262,7 +261,7 @@
     margin-top: 7%;
 }
 
-.select-menu{
+.select-menu {
     outline: none;
     margin-left: 2%;
 }
@@ -293,7 +292,7 @@
 
 .div-container-form-delete {
     position: absolute;
-   right: 5%;
+    right: 5%;
     top: 30%;
     height: 60%;
     width: 25%;
@@ -302,7 +301,7 @@
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
-.div-container-data-delete{
+.div-container-data-delete {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,7 +309,6 @@
 
 .div-form-delete {
     padding: 0 40px;
-    margin-right: 10%;
     width: 100%;
     box-sizing: border-box;
 }
@@ -318,13 +316,12 @@
 .title-delete {
     width: 100%;
     padding: 10% 0% 10%;
-    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.button-status-delete{
+.button-status-delete {
     width: 55%;
     margin-left: 5%;
     border-radius: 5px;
@@ -338,8 +335,136 @@
     font-size: 100%;
 }
 
-.button-status-delete:focus{
-    background:#fc4545;
+.button-status-delete:focus {
+    background: #fc4545;
     color: rgb(240, 240, 240);
 }
 
+/*Carga de Producto*/
+
+/*Cantidad*/
+.div-container-data-cant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.button-cant {
+    border-radius: 5px;
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    color: white;
+    margin-right: 5%;
+    padding: 5% 10% 5%;
+    width: 50%;
+    cursor: pointer;
+    border: none;
+    font-size: 100%;
+}
+
+.button-cant:focus {
+    background: #00c6ff;
+    color: rgb(240, 240, 240);
+}
+
+
+/*Producto*/
+.div-container-Product {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75.7vh;
+    overflow: hidden;
+    background-image: url('/img/top-left-bg.jpg');
+}
+
+.div-container-form-Product {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 35%;
+    height: 65%;
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+
+.form-Product {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.title-Product {
+    margin-top: -10%;
+    width: 100%;
+    padding: 5% 0% 5%;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-form-data-Product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+.div-form-data-numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.div-form-data-descrip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+.input-Product-descrip {
+    width: 100%;
+    outline: none;
+}
+
+.input-Product-number {
+    width: 50%;
+    margin-left: 3%;
+    outline: none;
+    margin-bottom: 5%;
+}
+
+.button-contaner-Product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.button-product {
+    border-radius: 25px;
+    background: #fe8c00;
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
+    background: linear-gradient(to right, #f83600, #fe8c00);
+    color: white;
+    padding: 5% 10% 5%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    font-size: 100%;
+}
+
+.button-product:focus {
+    background: #ffa536;
+    color: rgb(240, 240, 240);
+}

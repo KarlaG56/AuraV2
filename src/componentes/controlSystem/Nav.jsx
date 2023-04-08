@@ -15,7 +15,7 @@ function Nav() {
                 <a>| Carga de menu |</a>
             </Link>
 
-            <Link to="/" className='Block'>
+            <Link to="/Control_Sistema/Producto" className='Block'>
                 <a>| Carga de Productos |</a>
             </Link>
 
