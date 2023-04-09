@@ -32,7 +32,7 @@ function Data() {
                         <label>Confirmar contraseña</label>
                     </div>
 
-                    <input type="submit" value="Registarsw" />
+                    <input type="submit" value="Registars" />
                     <div className="signup_link">
                         ¿Ya eres miembro? <Link to="/">Iniciar sesion</Link>
                     </div>

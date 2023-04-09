@@ -21,7 +21,7 @@ function Menu() {
             <div className="Body-general">
                 <div className='Btn-menú'>
                     <div className="Contenedor-BebidasCalientes" onClick={() => handleButtonClick(1)}>
-                        <img src="/img/tab-icon-01.png" alt="" /><br />
+                        <img src="/img/tab-icon-01.png" alt="" className="icon-menu" /><br />
                         <button id="Btn-BebidasCalientes" >Bebidas calientes</button>
                     </div>
 

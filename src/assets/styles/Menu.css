@@ -10,31 +10,39 @@
 .Contenedor-BebidasCalientes{
     margin-top: 3em;
     margin-right: 2em;
+    cursor: pointer;
 }
 .Contenedor-BebidasFrias{
     margin-top: 3em;
     margin-right: 2em;
+    cursor: pointer;
 }
 .Contenedor-Extra{
     margin-top: 3em;
+    cursor: pointer;
 }
+
+
 #Btn-BebidasCalientes{
     background:transparent;
     border: 0;
     color: black;
     font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
 }
 #Btn-BebidasFrias{
     background:transparent;
     border: 0;
     color: black;
     font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
 }
 #Btn-Extra{
     background:transparent;
     border: 0;
     color: black;
     font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
 }
 
 #Btn-BebidasCalientes:active, #Btn-BebidasCalientes:focus{
@@ -89,6 +97,7 @@
     align-items: center;
     text-align: center;
 }
+
 
 
 
