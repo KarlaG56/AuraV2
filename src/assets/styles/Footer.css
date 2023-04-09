@@ -4,9 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(235, 235, 235);
+    background-color:#fb5849;
     padding: 2.2% 0;
 }
+
 .div-section {
     width: 25%;
     height: 70%;
@@ -26,37 +27,40 @@
     margin-left: -5em;
 }
 
-
 .Logo {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
+
 .Redes-sociales{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .Card-networks-1 {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    right: 20px;
+    width: 13%;
+    height: 13%;
+    cursor: pointer;
 }
   
 .Card-networks-2 {
-    width: 50px;
-    height: 50px;
-    right: 20px;
-    
+    width: 13.4%;
+    height: 13.4%; 
+    cursor: pointer;
 }
   
 .Card-networks-3 {
-    width: 63px;
-    height: 63px;
-    position: relative;
-    left: 18px;
+    width: 15%;
+    height: 15%;
+    margin-right: 30%;
+    cursor: pointer;
+}
+
+.copyright{
+    color: white;
+    font-size: 2.3vh;
 }

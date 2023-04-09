@@ -18,7 +18,7 @@ function Header() {
                 <a>| Inicio |</a>
             </Link>
 
-            <Link to="/Acerca de nosotros" id="Acerca-de-nosotros">
+            <Link to="/Acerca-de-nosotros" id="Acerca-de-nosotros">
                 <a>| Acerca de nosotros |</a>
             </Link>
 
@@ -30,7 +30,7 @@ function Header() {
                 <a>| Servicios |</a>
             </Link>
 
-            <Link to="/Iniciar sesión" id="Iniciar-sesión">
+            <Link to="/Iniciar-sesion" id="Iniciar-sesión">
                 <a>| Iniciar sesión |</a>
             </Link>
             </div>

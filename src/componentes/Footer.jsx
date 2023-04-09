@@ -1,5 +1,4 @@
 import '../assets/styles/Footer.css'
-import { Link } from 'react-router-dom';
 
 function Footer() {
 
@@ -9,21 +8,21 @@ function Footer() {
 
                 <div className='div-section'>
                     <div className='Redes-sociales'>
-                        <img className='Card-networks-1' src="/public/icon/Facebook.svg" alt="face" />
-                        <img className='Card-networks-2' src="/public/icon/Instagram.svg" alt="instagram" />
-                        <img className='Card-networks-3' src="/public/icon/WhatsApp.svg" alt='what' />
+                        <img className='Card-networks-1' src="/Icon/Facebook.svg" alt="face" />
+                        <img className='Card-networks-2' src="/Icon/Instagram.svg" alt="instagram" />
+                        <img className='Card-networks-3' src="/Icon/WhatsApp.svg" alt='what' />
                     </div>
                 </div>
 
                 <div className='div-section2'>
                     <div className='Logo'>
-                        <img src="/img/klassy-logo.png" alt="" />
+                        <img src="/img/white-logo.png" alt="" />
                     </div>
                 </div>
                 
                 <div className='div-section'>
                     <div class="copyright">
-                    © Copyright 2022. All rights reserved. Developed by Café Aura☕
+                    © Copyright 2023. Todos los derechos reservados. Desarollado por Café Aura☕
                     </div>
                 </div>
             </div>

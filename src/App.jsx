@@ -14,16 +14,16 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/Registro" element={<Register/>}/>
-        <Route path="/Control_Sistema/Empleado" element={<ControlSystem/>}/>
-        <Route path="/Control_Sistema/Menu" element={<Control_menu/>}/>
-        <Route path="/Control_Sistema/Producto" element={<Control_Product/>}/>
-        <Route path='/Inicio' element={<Inicio />} />
-        <Route path='/AcercaDeNosotros' element={<AcercaDeNosotros />} />
-        <Route path="/Control_Sistema" element={<ControlSystem/>}/>
-        <Route path="/Menu" element={<Menu/>}/>
-        <Route path="/Servicios" element={<Servicios/>}/>
+        <Route path='/' element={<Inicio />} />
+        <Route path="/Iniciar-sesion" element={<Login />} />
+        <Route path="/Registro" element={<Register />} />
+        <Route path="/Control_Sistema/Empleado" element={<ControlSystem />} />
+        <Route path="/Control_Sistema/Menu" element={<Control_menu />} />
+        <Route path="/Control_Sistema/Producto" element={<Control_Product />} />
+        <Route path='/Acerca-de-nosotros' element={<AcercaDeNosotros />} />
+        <Route path="/Control_Sistema" element={<ControlSystem />} />
+        <Route path="/Menu" element={<Menu />} />
+        <Route path="/Servicios" element={<Servicios />} />
       </Routes>
     </BrowserRouter>
   )
