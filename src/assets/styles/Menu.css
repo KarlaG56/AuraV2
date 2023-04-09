@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lexend+Deca:wght@800&family=Patrick+Hand&display=swap');
+.Body-general{
+   
+}
+.Btn-menú{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.Contenedor-BebidasCalientes{
+    margin-top: 3em;
+    margin-right: 2em;
+}
+.Contenedor-BebidasFrias{
+    margin-top: 3em;
+    margin-right: 2em;
+}
+.Contenedor-Extra{
+    margin-top: 3em;
+}
+#Btn-BebidasCalientes{
+    background:transparent;
+    border: 0;
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#Btn-BebidasFrias{
+    background:transparent;
+    border: 0;
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#Btn-Extra{
+    background:transparent;
+    border: 0;
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#Btn-BebidasCalientes:active, #Btn-BebidasCalientes:focus{
+    color: rgb(245, 124, 54);
+}
+
+#Btn-BebidasFrias:active, #Btn-BebidasFrias:focus{
+    color: rgb(245, 124, 54);
+}
+#Btn-Extra:active, #Btn-Extra:focus{
+    color: rgb(245, 124, 54);
+}
+
+.cuerpos{
+    display: inline-block; vertical-align: top; margin-top: 20px;
+}
+
+
+.card-producto-menu{
+    height: 8em;
+    width: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-align: center;     
+}
+.contenedor-img-menu img{
+    height: 100%;
+    width: 100%;
+}
+.contenedor-img-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8em;
+    width: 8em;
+}
+.nombre-producto-menu{
+    display: flex;
+    align-items: center;
+    height: 8em;
+    width: 15em;
+}
+.precio-producto-menu{
+    float: right;
+    background-color: rgb(219, 90, 20);
+    height: 8em;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
