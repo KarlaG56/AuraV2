@@ -4,6 +4,8 @@ import Register from "./componentes/Page/Register";
 import Inicio from "./componentes/Page/Inicio";
 import ControlSystem from "./componentes/Page/controlSystem";
 import AcercaDeNosotros from "./componentes/Page/AcercaDeNosotros";
+import Menu from "./componentes/Page/Menu";
+import Servicios from "./componentes/Page/Servicios";
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
         <Route path='/Inicio' element={<Inicio />} />
         <Route path='/AcercaDeNosotros' element={<AcercaDeNosotros />} />
         <Route path="/Control_Sistema" element={<ControlSystem/>}/>
+        <Route path="/Menu" element={<Menu/>}/>
+        <Route path="/Servicios" element={<Servicios/>}/>
       </Routes>
     </BrowserRouter>
   )
