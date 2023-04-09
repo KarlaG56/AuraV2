@@ -1,6 +1,4 @@
-import "../../assets/styles/BodyBebidasCalientes.css";
-import "../../assets/styles/BodyBebidasFrias.css";
-import "../../assets/styles/BodyExtras.css";
+import "../../assets/styles/Body_Bebidas.css";
 
 function CardProducto(props) {
 

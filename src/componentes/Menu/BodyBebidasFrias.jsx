@@ -1,5 +1,5 @@
 import CardProducto from "./CardProducto";
-import "../../assets/styles/BodyBebidasFrias.css";
+import "../../assets/styles/Body_Bebidas.css";
 
 function BodyBebidasFrias() {
     const listaFrio = [
@@ -7,12 +7,13 @@ function BodyBebidasFrias() {
         {id: 2, producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"100"},
         {id: 3, producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"100"},
         {id: 4, producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"100"},
-        {id: 5, producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"100"}
+        {id: 5, producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"100"},
+        {id: 6,producto: "Cafe mo0ca", img:"/img/tab-item-01.jpg", precio:"500"}
       ]
     return (
-        <div className="Body">
+        <div className="div-body-bebidas">
 
-            <div className="containerProductos1">
+            <div className="div-container-bebidas">
               {listaFrio.map((listaFrio) => {
                 return (
                   

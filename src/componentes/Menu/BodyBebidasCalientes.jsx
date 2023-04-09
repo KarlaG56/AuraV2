@@ -1,5 +1,5 @@
 import CardProducto from "./CardProducto";
-import "../../assets/styles/BodyBebidasCalientes.css";
+import "../../assets/styles/Body_Bebidas.css";
 
 function BodyBebidasCalientes() {
     const listaCaliente = [
@@ -7,12 +7,13 @@ function BodyBebidasCalientes() {
         {id: 2,producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"200"},
         {id: 3,producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"300"},
         {id: 4,producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"400"},
-        {id: 5,producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"500"}
+        {id: 5,producto: "Cafe moca", img:"/img/tab-item-01.jpg", precio:"500"},
+        {id: 6,producto: "Cafe moOca", img:"/img/tab-item-01.jpg", precio:"500"}
       ]
     return (
-        <div className="Body">
+        <div className="div-body-bebidas">
 
-            <div className="containerProductos1">
+            <div className="div-container-bebidas">
               {listaCaliente.map((listaCaliente) => {
               return (
   

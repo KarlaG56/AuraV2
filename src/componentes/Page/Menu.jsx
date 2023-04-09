@@ -1,7 +1,6 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import '../../assets/styles/Menu.css';
-
 import React, { useState } from 'react';
 import BodyBebidasCalientes from '../Menu/BodyBebidasCalientes';
 import BodyBebidasFrias from '../Menu/BodyBebidasFrias';
@@ -12,28 +11,28 @@ function Menu() {
 
     const [selectedBody, setSelectedBody] = useState(1);
 
-  const handleButtonClick = (bodyNumber) => {
-    setSelectedBody(bodyNumber);
-  };
+    const handleButtonClick = (bodyNumber) => {
+        setSelectedBody(bodyNumber);
+    };
 
     return (
         <>
             <Header />
             <div className="Body-general">
                 <div className='Btn-menú'>
-                    <div className="Contenedor-BebidasCalientes">
-                        <img src="/img/tab-icon-01.png" alt="" /><br/>
-                        <button id="Btn-BebidasCalientes" onClick={() => handleButtonClick(1)}>Bebidas calientes</button>
+                    <div className="Contenedor-BebidasCalientes" onClick={() => handleButtonClick(1)}>
+                        <img src="/img/tab-icon-01.png" alt="" /><br />
+                        <button id="Btn-BebidasCalientes" >Bebidas calientes</button>
                     </div>
 
-                    <div className="Contenedor-BebidasFrias">
-                        <img src="/img/tab-icon-02.png" alt="" /><br/>
-                        <button id="Btn-BebidasFrias" onClick={() => handleButtonClick(2)}>Bebidas frias</button>
+                    <div className="Contenedor-BebidasFrias" onClick={() => handleButtonClick(2)}>
+                        <img src="/img/tab-icon-02.png" alt="" /><br />
+                        <button id="Btn-BebidasFrias" >Bebidas frías</button>
                     </div>
 
-                    <div className="Contenedor-Extra"> 
-                        <img src="/img/tab-icon-03.png" alt="" /><br/>
-                        <button id="Btn-Extra" onClick={() => handleButtonClick(3)}>Extra</button>
+                    <div className="Contenedor-Extra" onClick={() => handleButtonClick(3)}>
+                        <img src="/img/tab-icon-03.png" alt="" /><br />
+                        <button id="Btn-Extra" >Extra</button>
                     </div>
                 </div>
 
@@ -46,7 +45,7 @@ function Menu() {
                 </div>
             </div>
             <Footer />
-            
+
         </>
     );
 }
