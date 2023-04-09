@@ -7,9 +7,7 @@ function Inicio() {
     return (
         <>
             <Header />
-            <Body/>
-            <Footer />
-            
+            <Body/>            
         </>
     );
 }

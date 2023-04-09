@@ -23,7 +23,7 @@ function Header() {
             </Link>
 
             <Link to="/Menu" id="Menu">
-                <a>| Menu |</a>
+                <a>| Menú |</a>
             </Link>
 
             <Link to="/Servicios" id="Servicios">
