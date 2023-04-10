@@ -7,7 +7,7 @@ function Body_Menu() {
 
                     <div className="div-container-data-status">
                         <label className="label-status">Seleccionar platillo</label>
-                        <select className="select-status" size="10" required>
+                        <select className="select-status" size="10" id="sctStatusMenu" required>
                         </select>
                     </div>
 
@@ -25,7 +25,7 @@ function Body_Menu() {
                     <h3 className="title-Menu">Menú</h3>
                     <div className="div-form-data-menu">
                         <label>Nombre del platillo</label>
-                        <input type="text" id="platillo-Menu" className="input-Menu" required />
+                        <input type="text" id="nameMPlatillo" className="input-Menu" required />
                     </div>
 
                     <div className="div-form-data-select">
@@ -62,7 +62,7 @@ function Body_Menu() {
 
                     <div className="div-container-data-status">
                         <label className="label-status">Seleccionar platillo</label>
-                        <select className="select-status" size="10" required>
+                        <select className="select-status" size="10" id="selectDeletStatus" required>
                         </select>
                     </div>
 

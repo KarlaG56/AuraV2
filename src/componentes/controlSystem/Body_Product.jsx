@@ -7,13 +7,13 @@ function Body_Product() {
 
                     <div className="div-container-data-status">
                         <label className="label-status">Seleccionar producto</label>
-                        <select className="select-status" size="5" required>
+                        <select className="select-status" size="5" id="sctStatusProduct" required>
                         </select>
                     </div>
 
                     <div className="div-container-data-status" >
                         <label>Cantidad</label>
-                        <input type="number" id="añadProduct" className="input-Product-number" required />
+                        <input type="number" id="añadCantStatus" className="input-Product-number" required />
                     </div>
 
                     <div className="div-container-data-cant">
@@ -29,7 +29,7 @@ function Body_Product() {
                     <h3 className="title-Product">Producto</h3>
                     <div className="div-form-data-Product">
                         <label>Nombre del producto</label>
-                        <input type="text" id="producto" className="input-Product" required />
+                        <input type="text" id="nameProduct" className="input-Product" required />
                     </div>
 
                     <div className="div-form-data-numbers">
@@ -46,7 +46,7 @@ function Body_Product() {
 
                     <div className="div-form-data-descrip">
                         <label>Descripción</label>
-                        <input type="text" id="descripcion" className="input-Product-descrip" required />
+                        <input type="text" id="dctProduct" className="input-Product-descrip" required />
                     </div>
 
                     <div className="div-form-data-Product">
@@ -66,7 +66,7 @@ function Body_Product() {
                     <h3 className="title-delete">Eliminar</h3>
                     <div className="div-container-data-status">
                         <label className="label-status">Seleccionar servicio</label>
-                        <select className="select-status" size="10" required>
+                        <select className="select-status" size="10" id="selectDeltProduct" required>
                         </select>
                     </div>
 

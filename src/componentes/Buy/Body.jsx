@@ -5,7 +5,7 @@ function Body() {
             <div className="div-container-buy">
 
                 <div className="div-container-product-img">
-                    <img src="/img/tab-item-01.jpg" alt="" className="img-product-buy" />
+                    <img src="/img/tab-item-01.jpg" alt="" id="imgBuyProduct" className="img-product-buy" />
                 </div>
 
                 <div className="div-container-product-data">
@@ -18,7 +18,7 @@ function Body() {
                         </div>
 
                         <div className="div-inf-cost">
-                            <p id="txtProduc">This example demonstrates a shorthand property for setting all of
+                            <p id="txtBuyProduct">This example demonstrates a shorthand property for setting all of
                                 the properties for the top border in one declaration.</p>
                         </div>
                     </div>
@@ -30,12 +30,12 @@ function Body() {
 
                         <div className="div-form-data-buy-number">
                             <label>Cantidad disponible </label>
-                            <p id="cantDisp" className="txt-buy-cant" ></p>
+                            <p id="cantDispBuy" className="txt-buy-cant" ></p>
                         </div>
 
                         <div className="div-form-data-buy-number">
                             <label>Cantidad</label>
-                            <input type="number" id="añadProduct" className="input-buy-number" required />
+                            <input type="number" id="cantBuyProduct" className="input-buy-number" required />
                         </div>
 
                         <div className="div-form-data-buy-number">
