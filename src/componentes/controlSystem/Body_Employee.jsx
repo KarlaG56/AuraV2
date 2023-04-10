@@ -20,7 +20,7 @@ function Body_Employee() {
                     </div>
 
                     <div className="div-form-data">
-                        <label>Confirmar contraseña</label>
+                        <label>Confirmar contraseñaa</label>
                         <input type="password" id="cpassEmployee" className="input-employee" required />
                     </div>
 
