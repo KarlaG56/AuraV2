@@ -19,10 +19,10 @@ function Footer() {
                         <img src="/img/white-logo.png" alt="" />
                     </div>
                 </div>
-                
+
                 <div className='div-section'>
                     <div class="copyright">
-                    © Copyright 2023. Todos los derechos reservados. Desarollado por Café Aura☕
+                        © Copyright 2023. Todos los derechos reservados. Desarollado por Café Aura☕
                     </div>
                 </div>
             </div>

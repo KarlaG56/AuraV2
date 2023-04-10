@@ -2,7 +2,6 @@ import CardServicios from "./CardServicios";
 
 
 function Body() {
-   
     const listaServicios = [
         {id: 1, nombre: "Cafe moca", description: "Mólido de café extra fino, Sabor Amargo", img:"/img/tab-item-01.jpg", precio:"100"},
         {id: 2, nombre: "Cafe moca", description: "Mólido de café extra fino, Sabor Amargo", img:"/img/tab-item-01.jpg", precio:"200"},

@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lexend+Deca:wght@800&family=Patrick+Hand&display=swap');
-.Body-general{
-   
-}
+
 .Btn-menú{
     display: flex;
     text-align: center;
@@ -21,8 +19,6 @@
     margin-top: 3em;
     cursor: pointer;
 }
-
-
 #Btn-BebidasCalientes{
     background:transparent;
     border: 0;
@@ -97,7 +93,3 @@
     align-items: center;
     text-align: center;
 }
-
-
-
-

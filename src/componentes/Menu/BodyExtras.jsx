@@ -20,8 +20,8 @@ function BodyExtras() {
               img={listaProductosExtras.img} 
               producto={listaProductosExtras.producto} 
               precio={listaProductosExtras.precio} />;
-
             })}
+            
             </div>
         
         </div>

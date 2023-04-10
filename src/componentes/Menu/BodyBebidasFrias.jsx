@@ -12,7 +12,6 @@ function BodyBebidasFrias() {
       ]
     return (
         <div className="div-body-bebidas">
-
             <div className="div-container-bebidas">
               {listaFrio.map((listaFrio) => {
                 return (
@@ -25,8 +24,8 @@ function BodyBebidasFrias() {
                 />
                 );
               })}
+              
             </div>
-
         </div>
     )
 }

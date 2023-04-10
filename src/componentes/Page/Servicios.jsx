@@ -8,8 +8,7 @@ function Servicios() {
         <>
             <Header />
             <Body/>
-            <Footer />
-            
+            <Footer />   
         </>
     );
 }

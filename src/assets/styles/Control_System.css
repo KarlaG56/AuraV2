@@ -7,7 +7,6 @@
     background-color: white;
     padding: 2.2% 0;
 }
-
 .nav-controller {
     width: 100%;
     height: 100%;
@@ -19,12 +18,10 @@
     justify-content: space-between;
     padding: 0.2% 0;
 }
-
 .Block a{
     text-decoration: none;
     color: aliceblue;
 }
-
 
 /*Employee*/
 
@@ -37,7 +34,6 @@
     overflow: hidden;
     background-image: url('/img/top-left-bg.jpg');
 }
-
 .div-container-form-Employee {
     position: absolute;
     display: flex;
@@ -51,20 +47,17 @@
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
-
 .form-Employee {
     padding: 0 40px;
     margin-right: 10%;
     box-sizing: border-box;
 }
-
 .div-form-data {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 1%;
 }
-
 .title-employee {
     width: 100%;
     padding: 10% 0% 10%;
@@ -73,20 +66,17 @@
     align-items: center;
     justify-content: center;
 }
-
 .input-employee {
     width: 120%;
     outline: none;
     margin-bottom: 5%;
 }
-
 .button-contaner-employee {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 13%;
 }
-
 .button-employee {
     border-radius: 25px;
     background: #fe8c00;
@@ -125,17 +115,14 @@
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
-
 .div-form-status {
     padding: 0 40px;
     width: 100%;
     box-sizing: border-box;
 }
-
 .div-container-data-status {
     margin-bottom: 15%;
 }
-
 .title-status {
     width: 100%;
     padding: 10% 0% 10%;
@@ -144,17 +131,14 @@
     align-items: center;
     justify-content: center;
 }
-
 .select-status {
     width: 100%;
     outline: none;
 }
-
 .buttons-status {
     display: flex;
     justify-content: space-between;
 }
-
 .button-status-active {
     border-radius: 5px;
     background: #00c6ff;
@@ -168,7 +152,6 @@
     border: none;
     font-size: 100%;
 }
-
 .button-status-inactive {
     width: 55%;
     margin-left: 5%;
@@ -182,17 +165,14 @@
     border: none;
     font-size: 100%;
 }
-
 .button-status-active:focus {
     background: #00c6ff;
     color: rgb(240, 240, 240);
 }
-
 .button-status-inactive:focus {
     background: #fc4545;
     color: rgb(240, 240, 240);
 }
-
 
 /* Menu */
 
@@ -205,7 +185,6 @@
     overflow: hidden;
     background-image: url('/img/top-left-bg.jpg');
 }
-
 .div-container-form-Menu {
     position: absolute;
     display: flex;
@@ -219,12 +198,10 @@
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
-
 .form-menu {
     padding: 0 40px;
     box-sizing: border-box;
 }
-
 .title-Menu {
     margin-top: -10%;
     width: 100%;
@@ -234,38 +211,32 @@
     align-items: center;
     justify-content: center;
 }
-
 .div-form-data-select {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 5%;
 }
-
 .input-Menu {
     width: 100%;
     outline: none;
     margin-bottom: 5%;
 }
-
 .input-Menu-precio {
     width: 20%;
     outline: none;
     margin-bottom: 5%;
 }
-
 .button-contaner-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 7%;
 }
-
 .select-menu {
     outline: none;
     margin-left: 2%;
 }
-
 .button-menu {
     border-radius: 25px;
     background: #fe8c00;
@@ -280,13 +251,10 @@
     border: none;
     font-size: 100%;
 }
-
 .button-menu:focus {
     background: #ffa536;
     color: rgb(240, 240, 240);
 }
-
-
 
 /*Delete*/
 
@@ -300,19 +268,16 @@
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
-
 .div-container-data-delete {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .div-form-delete {
     padding: 0 40px;
     width: 100%;
     box-sizing: border-box;
 }
-
 .title-delete {
     width: 100%;
     padding: 10% 0% 10%;
@@ -320,7 +285,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .button-status-delete {
     width: 55%;
     margin-left: 5%;
@@ -334,7 +298,6 @@
     border: none;
     font-size: 100%;
 }
-
 .button-status-delete:focus {
     background: #fc4545;
     color: rgb(240, 240, 240);
@@ -349,7 +312,6 @@
     align-items: center;
     width: 100%;
 }
-
 .button-cant {
     border-radius: 5px;
     background: #00c6ff;
@@ -363,12 +325,10 @@
     border: none;
     font-size: 100%;
 }
-
 .button-cant:focus {
     background: #00c6ff;
     color: rgb(240, 240, 240);
 }
-
 
 /*Producto*/
 .div-container-Product {
@@ -380,7 +340,6 @@
     overflow: hidden;
     background-image: url('/img/top-left-bg.jpg');
 }
-
 .div-container-form-Product {
     position: absolute;
     display: flex;
@@ -394,12 +353,10 @@
     border-radius: 10px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
-
 .form-Product {
     padding: 0 40px;
     box-sizing: border-box;
 }
-
 .title-Product {
     margin-top: -10%;
     width: 100%;
@@ -409,46 +366,39 @@
     align-items: center;
     justify-content: center;
 }
-
 .div-form-data-Product {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 6%;
 }
-
 .div-form-data-numbers {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
 }
-
 .div-form-data-descrip {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 6%;
 }
-
 .input-Product-descrip {
     width: 100%;
     outline: none;
 }
-
 .input-Product-number {
     width: 50%;
     margin-left: 3%;
     outline: none;
     margin-bottom: 5%;
 }
-
 .button-contaner-Product {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 7%;
 }
-
 .button-product {
     border-radius: 25px;
     background: #fe8c00;
@@ -463,7 +413,6 @@
     border: none;
     font-size: 100%;
 }
-
 .button-product:focus {
     background: #ffa536;
     color: rgb(240, 240, 240);

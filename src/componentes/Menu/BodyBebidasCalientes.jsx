@@ -23,7 +23,6 @@ function BodyBebidasCalientes() {
                 img={listaCaliente.img}
                 precio={listaCaliente.precio}
                 />
-
                 );
               })}
             </div>

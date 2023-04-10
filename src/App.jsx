@@ -11,7 +11,6 @@ import Servicios from "./componentes/Page/Servicios";
 import Buy from "./componentes/Page/Buy";
 
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>
