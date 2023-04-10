@@ -19,7 +19,7 @@ function Nav() {
                 <a>| Carga de Productos |</a>
             </Link>
 
-            <Link to="/" className='Block' >
+            <Link to="/Iniciar-sesion" className='Block' >
                 <a>| Cerrar sesion</a>
             </Link>
 
