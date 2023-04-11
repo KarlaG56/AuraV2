@@ -36,7 +36,6 @@ function Data() {
                     <div className="signup_link">
                         ¿Ya eres miembro? <Link to="/">Iniciar sesion</Link>
                     </div>
-
                 </form>
             </div>
         </div>

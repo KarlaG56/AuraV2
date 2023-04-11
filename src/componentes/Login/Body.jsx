@@ -10,8 +10,7 @@ function Body() {
                     <div className="txt_field">
                         <input type="email" id="correoLogin" required />
                         <span></span>
-                        <label>Co
-                            rreo electronico</label>
+                        <label>Correo electronico</label>
                     </div>
 
                     <div className="txt_field">

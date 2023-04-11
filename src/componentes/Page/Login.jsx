@@ -1,12 +1,8 @@
-import Background from "../Login/Background";
+import Background from "../Login/Body";
 
 function Login(){
     return(
-        <>
         <Background/>
-        
-        
-</>
     )
 }
 
