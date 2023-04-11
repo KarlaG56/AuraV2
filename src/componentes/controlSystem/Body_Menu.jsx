@@ -2,6 +2,7 @@ import SockJS from "sockjs-client";
 import { over } from "stompjs";
 import React, { useState, useEffect } from 'react';
 
+var stompClient = null; //variable donde se guarda la conexion del websocket
 
 function Body_Menu() {
     const [listaPeliculas, setlistaPeliculas] = useState([]);
@@ -17,6 +18,29 @@ function Body_Menu() {
     const handleChangeCost = (event) => { setCost(event.target.value) }
     const handleChangeImg = (event) => { setImg(event.target.value) }
     const handleChangeSinopsis = (event) => { setSinopsis(event.target.value) }
+
+    const URI = "http://54.146.85.160:8080" // URI de la API GATEWAT
+
+    const connect = () => { // esta funcion conecta al websocket
+        let sock = new SockJS(URI + "/ws");
+        stompClient = over(sock); // aqui se guarda la conexioon en una variable
+        stompClient.connect({}, onConnected, onerror); //aqui se conecta
+    };
+
+    const onerror = (e) => {
+        console.log(e)
+    }
+
+    const onConnected = () => { // esta funcion avisa cuando se conecto al websocket
+        console.log("[INFO] - stomp conected");
+        stompClient.subscribe("/response/xd/view/movies", returned);
+    };
+
+    const returned = (payload) => {
+        console.log(payload)
+        let payloadData = JSON.parse(payload.body);
+        setlistaPeliculas(payloadData);
+    }
 
     const handleSubmitMovie = (event) => {
         event.preventDefault();
@@ -62,6 +86,7 @@ function Body_Menu() {
     }
 
     useEffect(() => {
+        connect();
         var requestOptions = {
             method: 'GET',
             redirect: 'follow'

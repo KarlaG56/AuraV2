@@ -26,7 +26,7 @@ function Body() {
   };
 
   const returned = (payload) =>{
-    console.log(payload)
+    alert("Catalago actualizado");
     let payloadData = JSON.parse(payload.body);
     setlistaPeliculas(payloadData);
   }
