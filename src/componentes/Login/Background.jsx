@@ -3,7 +3,7 @@ import "../../assets/styles/Account.css";
 
 function Background(){
     return(
-        <div className="img-Background">
+        <div className="img-Backkground">
             <Body/>
         </div>
     )

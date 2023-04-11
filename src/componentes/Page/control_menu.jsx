@@ -6,6 +6,7 @@ import "../../assets/styles/Control_System.css";
 function control_menu() {
     return (
         <>
+        <h1></h1>
             <Header />
             <Nav />
             <Body_Menu/>
