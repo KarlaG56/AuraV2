@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./componentes/Page/Login";
 import Register from "./componentes/Page/Register";
 import Control_menu from "./componentes/Page/control_menu";
+import Cartelera from "./componentes/Page/Cartelera"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/Registro" element={<Register/>}/>
         <Route path="/Control_Sistema/Pelicula" element={<Control_menu/>}/>
+        <Route path="/Cartelera" element={<Cartelera/>}/>
       </Routes>
     </BrowserRouter>
   )

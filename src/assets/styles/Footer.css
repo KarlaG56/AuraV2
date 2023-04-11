@@ -1,0 +1,64 @@
+.Footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0057a6  ;
+    padding: 2.5% 0;
+}
+.div-section {
+    width: 25%;
+    height: 70%;
+    float: left;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 2em;
+}
+
+.div-section2 {
+    width: 25%;
+    height: 70%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: -5em;
+    margin-right: 1em;
+}
+
+
+.Logo img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Redes-sociales{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card-networks-1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 20px;
+}
+  
+.Card-networks-2 {
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    
+}
+  
+.Card-networks-3 {
+    width: 63px;
+    height: 63px;
+    position: relative;
+    left: 18px;
+}
