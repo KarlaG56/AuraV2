@@ -1,6 +1,5 @@
 import CardPelicula from "./CardPelicula";
 
-
 function Body() {
    
     const listaPeliculas = [
