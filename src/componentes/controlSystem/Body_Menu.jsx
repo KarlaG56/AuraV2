@@ -1,3 +1,5 @@
+
+
 function Body_Menu() {
     return (
         <div className="div-container-Menu">
@@ -6,7 +8,7 @@ function Body_Menu() {
                     <h3 className="title-status">Estatus</h3>
 
                     <div className="div-container-data-status">
-                        <label className="label-status">Seleccionar platillo</label>
+                        <label className="label-status">Seleccionar pelicula</label>
                         <select className="select-status" size="10" required>
                         </select>
                     </div>
@@ -24,20 +26,8 @@ function Body_Menu() {
                 <form action="" className="form-Menu">
                     <h3 className="title-Menu">Menú</h3>
                     <div className="div-form-data-menu">
-                        <label>Nombre del platillo</label>
+                        <label>Nombre del pelicula</label>
                         <input type="text" id="platillo-Menu" className="input-Menu" required />
-                    </div>
-
-                    <div className="div-form-data-select">
-                        <div>
-                            <label className="label-menu" >Seleccionar categoria</label>
-                            <select className="select-menu">
-                                <option value="BFria">Elige</option>
-                                <option value="BFria">Bebidas frías</option>
-                                <option value="BCalient">Bebidas calientes</option>
-                                <option value="Extra">Extra</option>
-                            </select>
-                        </div>
                     </div>
 
                     <div className="div-form-data">
@@ -61,7 +51,7 @@ function Body_Menu() {
                     <h3 className="title-delete">Eliminar</h3>
 
                     <div className="div-container-data-status">
-                        <label className="label-status">Seleccionar platillo</label>
+                        <label className="label-status">Seleccionar pelicula</label>
                         <select className="select-status" size="10" required>
                         </select>
                     </div>

@@ -6,7 +6,7 @@ function Data() {
             <div className="div-container-register-form">
 
                 <form className="div-container-register" action="">
-                    <img src="/img/klassy-logo.png" alt="" className="logo-login" />
+                   <h3 className="logo-login">Cine</h3>
 
                     <div className="txt_field">
                         <input type="text" id="name" required />
@@ -32,7 +32,7 @@ function Data() {
                         <label>Confirmar contraseña</label>
                     </div>
 
-                    <input type="submit" value="Registarsw" />
+                    <input type="submit" value="Registrarse" />
                     <div className="signup_link">
                         ¿Ya eres miembro? <Link to="/">Iniciar sesion</Link>
                     </div>

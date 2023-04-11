@@ -16,7 +16,7 @@
     background: linear-gradient(to right, #434343, #000000);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
     padding: 0.2% 0;
 }
 
@@ -26,86 +26,11 @@
 }
 
 
-/*Employee*/
-
-.div-container-Employee {
-    margin: 0;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75.7vh;
-    overflow: hidden;
-    background-image: url('/img/top-left-bg.jpg');
-}
-
-.div-container-form-Employee {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 30%;
-    left: 35%;
-    height: 65%;
-    width: 30%;
-    background: white;
-    border-radius: 10px;
-    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
-}
-
-.form-Employee {
-    padding: 0 40px;
-    margin-right: 10%;
-    box-sizing: border-box;
-}
-
 .div-form-data {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 1%;
-}
-
-.title-employee {
-    width: 100%;
-    padding: 10% 0% 10%;
-    margin-left: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.input-employee {
-    width: 120%;
-    outline: none;
-    margin-bottom: 5%;
-}
-
-.button-contaner-employee {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 13%;
-}
-
-.button-employee {
-    border-radius: 25px;
-    background: #fe8c00;
-    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
-    background: linear-gradient(to right, #f83600, #fe8c00);
-    color: white;
-    padding: 10% 15% 10%;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-    margin-left: 17%;
-    font-size: 100%;
-}
-
-.button-employee:focus {
-    background: #ffa536;
-    color: rgb(240, 240, 240);
 }
 
 /* Carga de Menu */
@@ -203,7 +128,8 @@
     background-size: cover;
     height: 75.7vh;
     overflow: hidden;
-    background-image: url('/img/top-left-bg.jpg');
+    background: #fd9413;  /* fallback for old browsers */
+    background: linear-gradient(to left, #ebc003, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 .div-container-form-Menu {
@@ -268,9 +194,9 @@
 
 .button-menu {
     border-radius: 25px;
-    background: #fe8c00;
-    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
-    background: linear-gradient(to right, #f83600, #fe8c00);
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6);
     color: white;
     padding: 5% 10% 5%;
     display: flex;
@@ -337,134 +263,5 @@
 
 .button-status-delete:focus {
     background: #fc4545;
-    color: rgb(240, 240, 240);
-}
-
-/*Carga de Producto*/
-
-/*Cantidad*/
-.div-container-data-cant {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.button-cant {
-    border-radius: 5px;
-    background: #00c6ff;
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
-    background: linear-gradient(to right, #0072ff, #00c6ff);
-    color: white;
-    margin-right: 5%;
-    padding: 5% 10% 5%;
-    width: 50%;
-    cursor: pointer;
-    border: none;
-    font-size: 100%;
-}
-
-.button-cant:focus {
-    background: #00c6ff;
-    color: rgb(240, 240, 240);
-}
-
-
-/*Producto*/
-.div-container-Product {
-    margin: 0;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75.7vh;
-    overflow: hidden;
-    background-image: url('/img/top-left-bg.jpg');
-}
-
-.div-container-form-Product {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 30%;
-    left: 35%;
-    height: 65%;
-    width: 30%;
-    background: white;
-    border-radius: 10px;
-    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
-}
-
-.form-Product {
-    padding: 0 40px;
-    box-sizing: border-box;
-}
-
-.title-Product {
-    margin-top: -10%;
-    width: 100%;
-    padding: 5% 0% 5%;
-    margin-left: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.div-form-data-Product {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 6%;
-}
-
-.div-form-data-numbers {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5%;
-}
-
-.div-form-data-descrip {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 6%;
-}
-
-.input-Product-descrip {
-    width: 100%;
-    outline: none;
-}
-
-.input-Product-number {
-    width: 50%;
-    margin-left: 3%;
-    outline: none;
-    margin-bottom: 5%;
-}
-
-.button-contaner-Product {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7%;
-}
-
-.button-product {
-    border-radius: 25px;
-    background: #fe8c00;
-    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
-    background: linear-gradient(to right, #f83600, #fe8c00);
-    color: white;
-    padding: 5% 10% 5%;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-    font-size: 100%;
-}
-
-.button-product:focus {
-    background: #ffa536;
     color: rgb(240, 240, 240);
 }
