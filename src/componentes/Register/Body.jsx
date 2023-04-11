@@ -1,5 +1,5 @@
 import Data from "./Data"
-import "../../assets/styles/Account.css";
+import "../../assets/styless/Account.css";
 
 function Body(){
     return(
