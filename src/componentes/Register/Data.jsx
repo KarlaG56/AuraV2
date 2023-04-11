@@ -6,7 +6,7 @@ function Data() {
             <div className="div-container-register-form">
 
                 <form className="div-container-register" action="">
-                   <h3 className="logo-login">Cine</h3>
+                <img src="/img/Logo.jpeg" alt="" className="logo-login" />
 
                     <div className="txt_field">
                         <input type="text" id="name" required />

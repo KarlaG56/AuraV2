@@ -6,7 +6,9 @@ function Body() {
             <div className="div-container-form">
                 
                 <form className="div-container-login" action="">
-                <img src="/img/klassy-logo.png" alt="" className="logo-login" />
+                   
+                    <img src="/img/Logo.jpeg" alt="" className="logo-login" />
+                    
                     <div className="txt_field">
                         <input type="email" id="correoLogin" required />
                         <span></span>

@@ -30,8 +30,14 @@
     box-sizing: border-box;
 }
 
-#logo-login{
-    padding: 10vh 10vh;
+.logo-login{
+    width: 90%;
+    height: 14vh;
+    margin-top: 10%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px ;
 }
 
 
